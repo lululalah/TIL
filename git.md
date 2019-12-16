@@ -76,7 +76,7 @@ Changes to be committed:
 > 커밋은 코드의 이력을 남기는 과정이다.
 
 ```bash
-$ git commit -m '커밋메시지(내가 직접 작성)'
+$ git commit -m {커밋메시지(내가 직접 작성)}
 [master (root-commit) 1cf502a] 마크다운 및 git기초정리
  3 files changed, 102 insertions(+)
  create mode 100644 git.md
@@ -122,20 +122,20 @@ $ git remote add origin {github url}
 ```
 
 * {github url}부분에는 원격 저장소 url을 작성한다.
-
-* 원격 저장소(remote)로 {github url}을 origin이라는 이름으로 추가(add)하는 명령어이다.
+* *원격 저장소(remote)로 {github url}을 origin이라는 이름으로 추가(add)하는 명령어이다.*
 
 * 원격 저장소 목록을 보기 위해서는 아래의 명령어를 활용한다.
 
-  
 
-  ```bash
-  $ git remote -v
-  ```
+```bash
+$ git remote -v #엔터치면 바로나옴
+origin  https://github.com/lululalah/TIL.git (fetch)
+origin  https://github.com/lululalah/TIL.git (push)
+```
 
 
 
-## 2.push
+### 2.push
 
 ```bash
 $ git push origin master
@@ -143,4 +143,4 @@ $ git push origin master
 
 * 설정된 원격 저장소(origin)으로 push!
 
-폴더의 내용을 수정 및 삭제, 생성 등을 하게 된다면, 
+폴더의 내용을 수정 및 삭제, 생성 등을 하게 된다면,  `add`,`commit`,명령어를 통해서 이력을 저장하고, `push`명령어를 통해 업로드 한다.
