@@ -45,6 +45,8 @@
 
 ## 코드 블록
 
+```` +언어이름`으로 만들 수 있다.
+
 ```java
 // 자바 주석
 int number = 3;
@@ -63,7 +65,7 @@ def foo():
 
 ## 이미지
 
-![1](C:\Users\student\Desktop\TIL - 복사본\image\1.jpg)
+![1](image/1.jpg)
 
 ## 표
 

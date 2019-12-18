@@ -1,10 +1,38 @@
 # TIL (Today I Learned)
 
-> 매일 배운 내용을 정리하자!
+## JAVA
 
-## [JAVA](https://github.com/edutak/TIL/blob/master/java)
+### 1. day01
+
+
+
+## Git
+
+##### 참고 
+
+[Git강사님 github](https://github.com/edutak/TIL/blob/master/git)
+
+star관련 abusing논란 [Stop abuse Github Star](https://github.com/metatron-app/metatron-discovery/issues/2405)
+
+[깃 교과서 git scm](https://git-scm.com/book/en/v2)
+
+* 학생할인
+
+  * 추가 이메일에 @edu나 @ac.kr있으면됨.
+
+  [Github student pack](https://education.github.com/pack)
+
+  jetbrains student-IDE(통합개발환경)
+
+  noiton student
+
+
+
+
 
 ## 기타
 
-* [Git](https://github.com/edutak/TIL/blob/master/git)
-* 마크다운
+* [마크다운(markdown)기초]()
+
+* bash줄 다지우기 
+  * ctrl+L or U

@@ -24,7 +24,7 @@ git이 실제로 동작하고 있구나는 (master)가 하늘색으로 표시된
 
 * 저장소(repository)를 초기화 하게 되면 **.git폴더**가 해당 디렉토리에 생성된다.
 * bash창에서는 **(master)**라고 표기된다.
-  * 현재 브랜치가 master라는 것을 의미함.
+  * 현재 브랜치가 master라는 것을 의미함. 
 
 ### 2. `add` -staging area
 
@@ -89,7 +89,7 @@ $ git commit -m {커밋메시지(내가 직접 작성)}
 * 이력확인을 위해서는 아래의 명령어를 사용한다.
 
 ```bash
-$ git log
+$ git log #너무 길떄는 q로 나가기
 commit 1cf502ae60c2e351f81874f331d56d0fe8a949f0 (HEAD -> master)
 Author: lululalah <hyojinlee1007@gmail.com>
 Date:   Mon Dec 16 14:23:57 2019 +0900
@@ -119,6 +119,7 @@ Date:   Mon Dec 16 14:23:57 2019 +0900
 
 ```bash
 $ git remote add origin {github url}
+#예 $ git remote add origin https://github.com/lululalah/javastudy
 ```
 
 * {github url}부분에는 원격 저장소 url을 작성한다.
